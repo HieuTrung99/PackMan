@@ -25,6 +25,7 @@ public class Pacman {
 	ArrayList<String> lines = new ArrayList<String>();
 
 	public Pacman() {
+		System.out.println("aaa");
 		try { 
 			Scanner s = new Scanner(new File("data.txt"));
 			int r = 0;
